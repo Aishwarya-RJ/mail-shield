@@ -59,6 +59,7 @@ Mail-Shield/
 ├── model_rf.joblib
 ├── vectorizer.joblib
 └── requirements.txt
+```
 
 ## Screenshots
 
