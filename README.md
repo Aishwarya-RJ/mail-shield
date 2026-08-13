@@ -59,3 +59,14 @@ Mail-Shield/
 ├── model_rf.joblib
 ├── vectorizer.joblib
 └── requirements.txt
+
+## Screenshots
+
+### Main Application
+![Mail Shield Main Interface](mail-shield-main.png)
+
+### Explainable NLP & ML Analysis
+![Mail Shield Analysis](mail-shield-analysis.png)
+
+### Spam Detection
+![Mail Shield Spam Detection](mail-shield-spam-detection.png)
