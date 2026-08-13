@@ -1,0 +1,159 @@
+{
+  "dataset": {
+    "total_emails": 5728,
+    "spam_count": 1368,
+    "ham_count": 4360,
+    "train_count": 4582,
+    "test_count": 1146
+  },
+  "logistic_regression": {
+    "accuracy": 0.9834,
+    "precision": 0.9848,
+    "recall": 0.9453,
+    "f1_score": 0.9646,
+    "confusion_matrix": [
+      [
+        868,
+        4
+      ],
+      [
+        15,
+        259
+      ]
+    ]
+  },
+  "naive_bayes": {
+    "accuracy": 0.9834,
+    "precision": 0.9705,
+    "recall": 0.9599,
+    "f1_score": 0.9651,
+    "confusion_matrix": [
+      [
+        864,
+        8
+      ],
+      [
+        11,
+        263
+      ]
+    ]
+  },
+  "random_forest": {
+    "accuracy": 0.9634,
+    "precision": 0.9833,
+    "recall": 0.8613,
+    "f1_score": 0.9183,
+    "confusion_matrix": [
+      [
+        868,
+        4
+      ],
+      [
+        38,
+        236
+      ]
+    ]
+  },
+  "top_spam_words": [
+    {
+      "word": "click",
+      "weight": 3.103
+    },
+    {
+      "word": "software",
+      "weight": 2.653
+    },
+    {
+      "word": "money",
+      "weight": 2.609
+    },
+    {
+      "word": "http",
+      "weight": 2.557
+    },
+    {
+      "word": "life",
+      "weight": 2.452
+    },
+    {
+      "word": "online",
+      "weight": 2.221
+    },
+    {
+      "word": "viagra",
+      "weight": 2.172
+    },
+    {
+      "word": "2005",
+      "weight": 2.11
+    },
+    {
+      "word": "account",
+      "weight": 2.056
+    },
+    {
+      "word": "save",
+      "weight": 1.997
+    },
+    {
+      "word": "sex",
+      "weight": 1.862
+    },
+    {
+      "word": "man",
+      "weight": 1.738
+    },
+    {
+      "word": "free",
+      "weight": 1.714
+    },
+    {
+      "word": "love",
+      "weight": 1.623
+    },
+    {
+      "word": "com",
+      "weight": 1.525
+    },
+    {
+      "word": "net",
+      "weight": 1.521
+    },
+    {
+      "word": "site",
+      "weight": 1.511
+    },
+    {
+      "word": "low",
+      "weight": 1.445
+    },
+    {
+      "word": "000",
+      "weight": 1.437
+    },
+    {
+      "word": "website",
+      "weight": 1.434
+    },
+    {
+      "word": "removed",
+      "weight": 1.358
+    },
+    {
+      "word": "sexual",
+      "weight": 1.326
+    },
+    {
+      "word": "worldwide",
+      "weight": 1.318
+    },
+    {
+      "word": "mail",
+      "weight": 1.304
+    },
+    {
+      "word": "php",
+      "weight": 1.299
+    }
+  ]
+}
